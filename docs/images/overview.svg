@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">KubeDesk — your cluster, a little closer</title>
+<desc id="desc">Feature illustration with fictional data: selecting the api pod reveals worker-01 and the other pods sharing that node across namespaces.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e2c"/><stop offset="1" stop-color="#09111d"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#2dd4bf" stop-opacity=".17"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="640" rx="24" fill="url(#bg)"/>
+<ellipse cx="1000" cy="290" rx="420" ry="360" fill="url(#glow)"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<rect x="56" y="52" width="46" height="46" rx="13" fill="#163d43"/>
+<path d="m79 61 14 8-14 8-14-8zm-14 17 14 8 14-8m-28 9 14 8 14-8" stroke="#62e7ce" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+<text x="118" y="85" fill="#eff8ff" font-size="30" font-weight="700">KubeDesk</text>
+<text x="56" y="194" fill="#eff8ff" font-size="52" font-weight="700" letter-spacing="-1.6">Your cluster,</text>
+<text x="56" y="258" fill="#62e7ce" font-size="52" font-weight="700" letter-spacing="-1.6">a little closer.</text>
+<text x="58" y="310" fill="#acbecf" font-size="21">Follow a pod. Find its neighbors.</text>
+<text x="58" y="343" fill="#acbecf" font-size="21">Give your workloads room to grow.</text>
+<g font-size="14" font-weight="600">
+<rect x="56" y="392" width="107" height="34" rx="17" fill="#1c3041"/><text x="76" y="414" fill="#cedde9">macOS 13+</text>
+<rect x="173" y="392" width="92" height="34" rx="17" fill="#1c3041"/><text x="193" y="414" fill="#cedde9">SwiftUI</text>
+<rect x="275" y="392" width="166" height="34" rx="17" fill="#1c3041"/><text x="295" y="414" fill="#cedde9">Your kubeconfig</text>
+</g>
+<text x="58" y="548" fill="#718da3" font-size="13" letter-spacing="2">CONTEXT → WORKLOAD → NODE</text>
+<!-- Schematic, deliberately not an application screenshot. -->
+<rect x="552" y="60" width="672" height="514" rx="20" fill="#101d2b" stroke="#2b4357"/>
+<circle cx="580" cy="89" r="4" fill="#62e7ce"/>
+<text x="594" y="94" fill="#c4d6e4" font-size="14">demo-cluster / storefront</text>
+<text x="1047" y="94" fill="#7e99ad" font-size="11" letter-spacing="1.5">SAMPLE DATA</text>
+<path d="M552 116h672" stroke="#2b4357"/>
+<text x="580" y="151" fill="#7e99ad" font-size="12" letter-spacing="1.5">SELECTED POD</text>
+<rect x="578" y="170" width="257" height="100" rx="12" fill="#163d43" stroke="#3bbdaa"/>
+<text x="598" y="201" fill="#edfffa" font-size="18" font-weight="600">api-7c9d4</text>
+<circle cx="601" cy="226" r="4" fill="#62e7ce"/>
+<text x="613" y="232" fill="#9fceca" font-size="13">Running · storefront</text>
+<text x="598" y="253" fill="#9fceca" font-size="12">120 mCPU · 96 MiB</text>
+<path d="M835 220h40" stroke="#62e7ce" stroke-width="2"/><path d="m869 214 7 6-7 6" fill="none" stroke="#62e7ce" stroke-width="2"/>
+<rect x="892" y="170" width="302" height="100" rx="12" fill="#17293a" stroke="#36536b"/>
+<text x="914" y="200" fill="#eff8ff" font-size="18" font-weight="600">worker-01</text>
+<text x="914" y="228" fill="#9db5c8" font-size="13">Node group: app-workers</text>
+<text x="914" y="251" fill="#9db5c8" font-size="12">Ready · 3 colocated pods</text>
+<path d="M1043 270v35H600v24" fill="none" stroke="#36536b" stroke-width="2"/>
+<text x="619" y="333" fill="#7e99ad" font-size="12" letter-spacing="1.5">SHARING THIS NODE · ALL NAMESPACES</text>
+<g font-size="15">
+<rect x="578" y="351" width="616" height="52" rx="9" fill="#173336"/>
+<circle cx="600" cy="377" r="4" fill="#62e7ce"/><text x="616" y="382" fill="#d2eee8">api-7c9d4</text><text x="1033" y="382" fill="#95b8bd" font-size="13">storefront</text>
+<rect x="578" y="413" width="616" height="52" rx="9" fill="#172738"/>
+<circle cx="600" cy="439" r="4" fill="#62e7ce"/><text x="616" y="444" fill="#c4d6e4">worker-6b2f1</text><text x="1033" y="444" fill="#95adbf" font-size="13">jobs</text>
+<rect x="578" y="475" width="616" height="52" rx="9" fill="#172738"/>
+<circle cx="600" cy="501" r="4" fill="#62e7ce"/><text x="616" y="506" fill="#c4d6e4">metrics-agent</text><text x="1033" y="506" fill="#95adbf" font-size="13">observability</text>
+</g>
+<text x="58" y="609" fill="#657f95" font-size="12">Native Kubernetes tools for your desktop.</text>
+<text x="956" y="609" fill="#657f95" font-size="12">Feature illustration · fictional cluster data</text>
+</g>
+</svg>

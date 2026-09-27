@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+<title id="title">Focus on the pods you care about</title>
+<desc id="desc">Namespace filter illustration. On worker-01, hide kube-system and observability to show two storefront pods out of five total pods. Checked namespaces are excluded. Show all clears the filter.</desc>
+<rect width="1280" height="520" rx="24" fill="#0e1a28"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="44" y="54" fill="#eff8ff" font-size="28" font-weight="700">Focus on the pods you care about.</text>
+<text x="44" y="84" fill="#98b0c3" font-size="16">Pod → Node inspector → Filter. Check a namespace to hide its pods.</text>
+<rect x="44" y="113" width="370" height="343" rx="16" fill="#142638" stroke="#2d475d"/>
+<text x="65" y="148" fill="#90adc3" font-size="12" letter-spacing="1.5">01 / ALL PODS ON WORKER-01</text>
+<text x="65" y="178" fill="#e8f5ff" font-size="18" font-weight="600">Showing 5 of 5 pods</text>
+<g font-size="14">
+<text x="65" y="219" fill="#d4eee9">api-7c9d4</text><text x="280" y="219" fill="#9eb6c8">storefront</text>
+<path d="M65 234h326" stroke="#263e52"/>
+<text x="65" y="262" fill="#d4eee9">web-8f2b1</text><text x="280" y="262" fill="#9eb6c8">storefront</text>
+<path d="M65 277h326" stroke="#263e52"/>
+<text x="65" y="305" fill="#a3b9ca">coredns-a</text><text x="280" y="305" fill="#8099ae">kube-system</text>
+<path d="M65 320h326" stroke="#263e52"/>
+<text x="65" y="348" fill="#a3b9ca">coredns-b</text><text x="280" y="348" fill="#8099ae">kube-system</text>
+<path d="M65 363h326" stroke="#263e52"/>
+<text x="65" y="391" fill="#a3b9ca">metrics-agent</text><text x="280" y="391" fill="#8099ae">observability</text>
+</g>
+<path d="M425 284h19m-6-6 6 6-6 6" fill="none" stroke="#62e7ce" stroke-width="2"/>
+<rect x="454" y="113" width="342" height="343" rx="16" fill="#142d32" stroke="#335957"/>
+<text x="476" y="148" fill="#62e7ce" font-size="12" letter-spacing="1.5">02 / HIDE NAMESPACES</text>
+<text x="476" y="178" fill="#a5c7c1" font-size="14">Checked = hidden from this list</text>
+<g font-size="16">
+<rect x="476" y="212" width="20" height="20" rx="4" fill="#62e7ce"/><path d="m481 222 4 4 7-9" fill="none" stroke="#123330" stroke-width="2"/><text x="510" y="228" fill="#ddf8f1">kube-system</text>
+<rect x="476" y="261" width="20" height="20" rx="4" fill="#62e7ce"/><path d="m481 271 4 4 7-9" fill="none" stroke="#123330" stroke-width="2"/><text x="510" y="277" fill="#ddf8f1">observability</text>
+<rect x="476" y="310" width="20" height="20" rx="4" fill="#12262c" stroke="#749a99"/><text x="510" y="326" fill="#ddf8f1">storefront</text>
+</g>
+<path d="M476 355h298" stroke="#335957"/>
+<rect x="476" y="378" width="106" height="37" rx="8" fill="#244b4a"/><text x="496" y="402" fill="#bff5e8" font-size="14">Show all</text>
+<text x="603" y="402" fill="#9dbdb9" font-size="12">Clear exclusions</text>
+<path d="M807 284h19m-6-6 6 6-6 6" fill="none" stroke="#62e7ce" stroke-width="2"/>
+<rect x="836" y="113" width="400" height="343" rx="16" fill="#142638" stroke="#2d475d"/>
+<text x="858" y="148" fill="#90adc3" font-size="12" letter-spacing="1.5">03 / YOUR FILTERED VIEW</text>
+<text x="858" y="178" fill="#e8f5ff" font-size="18" font-weight="600">Showing 2 of 5 pods</text>
+<text x="858" y="205" fill="#62e7ce" font-size="13">2 namespaces excluded</text>
+<rect x="858" y="228" width="356" height="65" rx="9" fill="#193d40"/>
+<text x="876" y="254" fill="#e3faf3" font-size="16">api-7c9d4</text><text x="876" y="277" fill="#95bfb8" font-size="12">storefront · Running</text>
+<rect x="858" y="305" width="356" height="65" rx="9" fill="#193d40"/>
+<text x="876" y="331" fill="#e3faf3" font-size="16">web-8f2b1</text><text x="876" y="354" fill="#95bfb8" font-size="12">storefront · Running</text>
+<text x="858" y="417" fill="#95adbf" font-size="13">Same node. Less clutter.</text>
+<text x="44" y="492" fill="#7c98ad" font-size="13">Filters stay separate per context and survive node changes and refreshes in this window.</text>
+<text x="965" y="492" fill="#718da3" font-size="12">Feature illustration · fictional data</text>
+</g>
+</svg>
